@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebConnections", "WebConnections\WebConnections.csproj", "{FAEEE5A0-C81A-4FDD-89EE-BBC05256B904}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebConnections.test", "WebConnections.test\WebConnections.test.csproj", "{08CDBC77-C3C8-44DA-9080-2C7040E178FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAEEE5A0-C81A-4FDD-89EE-BBC05256B904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAEEE5A0-C81A-4FDD-89EE-BBC05256B904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAEEE5A0-C81A-4FDD-89EE-BBC05256B904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAEEE5A0-C81A-4FDD-89EE-BBC05256B904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08CDBC77-C3C8-44DA-9080-2C7040E178FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08CDBC77-C3C8-44DA-9080-2C7040E178FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08CDBC77-C3C8-44DA-9080-2C7040E178FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08CDBC77-C3C8-44DA-9080-2C7040E178FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
