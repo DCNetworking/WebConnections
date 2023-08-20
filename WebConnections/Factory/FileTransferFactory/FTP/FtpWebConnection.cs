@@ -11,14 +11,9 @@ public sealed class FtpWebConnection : WebConnectionService
     {
         ConnectionCredentials = connectionCredentials;
         _serverUri = new(ConnectionCredentials.Server);
-        ConfigWebRequestConnection();
     }
     protected override void ConfigWebRequestConnection()
-    {
-        var ftpWebRequest = WebRequest.Create(_serverUri);
-        ftpWebRequest.Credentials =
-            new NetworkCredential(ConnectionCredentials.Username, ConnectionCredentials.Password);
-    }
+    { }
     public override async Task<bool> TestConnection()
     {
         try
