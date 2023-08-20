@@ -17,7 +17,7 @@ public sealed class SftpWebConnection : WebConnectionService
     protected override void ConfigWebRequestConnection()
     {
         _sftpClient = new(
-            host :ConnectionCredentials.Server,
+            host: ConnectionCredentials.Server,
             port: ConnectionCredentials.Port,
             username: ConnectionCredentials.Username,
             password: ConnectionCredentials.Password
